@@ -1,0 +1,282 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.top-container {
+  width: 100%;
+  background-color: #5763a5;
+  margin-top: 25px;
+  border-radius: 7px;
+  padding: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-manager-img-container {
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-manager-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 12px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-title {
+  margin-top: 7px;
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 3px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.input-container > img {
+  height: 20px;
+  margin: 12px;
+}
+
+.input-container > input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-left: 1px solid #94a3b8;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-btn-container > button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+
+.bottom-container {
+  width: 100%;
+  background-color: #7683cb;
+  margin-top: 15px;
+  border-radius: 7px;
+  padding: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left-container {
+  display: flex;
+  align-items: center;
+  min-width: 160px;
+}
+
+.bottom-container-title {
+  font-size: 15px;
+  margin-right: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.count {
+  font-size: 15px;
+  color: #ffffff;
+  min-width: 25px;
+  padding: 3px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #b6c3ca;
+}
+
+.header-right-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: 25px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.header-right-container > img {
+  height: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.header-right-container > input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-left: 1px solid #94a3b8;
+  padding: 10px;
+}
+
+hr {
+  border: 1px solid #ffffff;
+  margin-top: 3px;
+}
+
+.show-passwords-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.checkbox {
+  height: 14px;
+  width: 14px;
+  margin-right: 7px;
+}
+
+.show-password-label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.passwords-section {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.no-passwords-container {
+  width: 100%;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-passwords-container > img {
+  max-width: 300px;
+}
+
+.no-passwords-container > p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.color-0 {
+  background-color: #c9337e;
+}
+
+.color-1 {
+  background-color: #0b69ff;
+}
+
+.color-2 {
+  background-color: #f59e0b;
+}
+
+.color-3 {
+  background-color: #10b981;
+}
+
+.color-4 {
+  background-color: #f97316;
+}
+
+.color-5 {
+  background-color: #14b8a6;
+}
+
+.color-6 {
+  background-color: #b91c1c;
+}
+
+.color-7 {
+  background-color: #0ea5e9;
+}
+
+.color-8 {
+  background-color: #79ac2d;
+}
+
+.color-9 {
+  background-color: #d333d0;
+}
+
+@media screen and (min-width: 768px) {
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    padding-bottom: 50px;
+    height: 400px;
+  }
+  .passwords-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .password-manager-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+    flex-grow: 0;
+  }
+  .password-manager-img {
+    height: 100%;
+    width: auto;
+  }
+  .form-container {
+    width: 50%;
+    max-width: 50%;
+  }
+}
